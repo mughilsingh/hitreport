@@ -8,22 +8,28 @@
 </head>
 <body>
   <header>
-    <div class="banner">
-      <h2>Learn Martial Arts with Our App!</h2>
-      <a href="#" class="app-btn">Download Now</a>
-    </div>
     <nav>
-      <h1>Hit Report</h1>
-      <ul>
+      <a href="index.html" class="logo-link"><h1>Hit Report</h1></a>
+      <button class="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="articles.html">Articles</a></li>
+        <li><a href="elo.html">ELO</a></li>
       </ul>
     </nav>
+    <div class="banner">
+      <h2>Learn Martial Arts with Our App!</h2>
+  <a href="#" class="app-btn">Coming Soon</a>
+    </div>
   </header>
   <main>
     <section class="hero">
       <h2>Latest MMA News</h2>
-      <div id="articles-list">
+  <div id="articles-list" class="single-column-articles">
         <!-- Articles will be loaded here by JS -->
       </div>
     </section>
@@ -32,5 +38,20 @@
     <p>&copy; 2025 Hit Report. All rights reserved.</p>
   </footer>
   <script src="main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Load articles for homepage
+      var articlesList = document.getElementById('articles-list');
+      function renderHomepageArticles(articles) {
+        articlesList.innerHTML = articles.map(function(article) {
+return `<div class=\"article-card\">\n  <div class=\"article-img-wrap\">\n    <a href=\"${article.url}\"><img src=\"${article.image}\" alt=\"${article.title}\" class=\"article-img\" /></a>\n  </div>\n  <div class=\"article-content\">\n    <h3><a href=\"${article.url}\">${article.title}</a></h3>\n    <p>${article.summary}</p>\n    <div class=\"article-meta\">\n      <span class=\"article-date\">${article.date}</span> | <span class=\"article-author\">${article.author}</span> | <span class=\"article-updated\">Last updated: ${article.lastUpdated}</span>\n    </div>\n    <a href=\"${article.url}\">Read More</a>\n  </div>\n</div>`;        }).join('');
+      }
+      fetch('articles.json')
+        .then(response => response.json())
+        .then(function(articles) {
+          renderHomepageArticles(articles);
+        });
+    });
+  </script>
 </body>
 </html>

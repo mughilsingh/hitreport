@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles - Hit Report</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo-link"><h1>Hit Report</h1></a>
+      <button class="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="elo.html">ELO</a></li>
+      </ul>
+    </nav>
+    <div class="banner">
+      <h2>Learn Martial Arts with Our App!</h2>
+      <a href="#" class="app-btn">Coming Soon</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>All MMA Articles</h2>
+      <input type="text" id="search-input" placeholder="Search articles..." class="search-bar" />
+      <div id="articles-list">
+        <!-- Articles will be loaded here by JS -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Hit Report. All rights reserved.</p>
+  </footer>
+  <script src="main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var burger = document.querySelector('.burger');
+      // Burger menu logic is now handled by main.js for consistency
+      // Search functionality
+      var searchInput = document.getElementById('search-input');
+      var articlesList = document.getElementById('articles-list');
+      function renderFilteredArticles(articles, query) {
+        var filtered = articles.filter(function(article) {
+          return article.title.toLowerCase().includes(query) || article.summary.toLowerCase().includes(query);
+        });
+        articlesList.innerHTML = filtered.map(function(article) {
+       return `<div class=\"article-card\">\n  <div class=\"article-img-wrap\">\n    <img src=\"${article.image}\" alt=\"${article.title}\" class=\"article-img\" />\n  </div>\n  <div class=\"article-content\">\n    <h3>${article.title}</h3>\n    <p>${article.summary}</p>\n    <div class=\"article-meta\">\n      <span class=\"article-date\">${article.date}</span> | <span class=\"article-author\">${article.author}</span> | <span class=\"article-updated\">Last updated: ${article.lastUpdated}</span>\n    </div>\n    <a href=\"${article.url}\">Read More</a>\n  </div>\n</div>`;
+        }).join('');
+      }
+      fetch('articles.json')
+        .then(response => response.json())
+        .then(function(articles) {
+          // Show all articles by default
+          renderFilteredArticles(articles, "");
+          if (searchInput) {
+            searchInput.addEventListener('input', function(e) {
+              var query = e.target.value.toLowerCase();
+              renderFilteredArticles(articles, query);
+            });
+          }
+        });
+    });
+  </script>
+</body>
+</html>
