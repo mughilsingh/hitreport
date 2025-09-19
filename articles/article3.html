@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Martial Arts Training Tips</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../index.html" class="logo-link"><h1>Hit Report</h1></a>
+      <button class="burger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../articles.html">Articles</a></li>
+      </ul>
+    </nav>
+    <div class="banner">
+      <h2>Learn Martial Arts with Our App!</h2>
+      <a href="#" class="app-btn">Coming Soon</a>
+    </div>
+  </header>
+  <main>
+    <article class="hero">
+      <h2>Martial Arts Training Tips</h2>
+      <p>Improve your skills with these expert tips from pro fighters.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, euismod dictum massa enim nec erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p>Want to learn martial arts? <a href="#" class="app-btn">Coming Soon</a></p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2025 Hit Report. All rights reserved.</p>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var burger = document.querySelector('.burger');
+      var navList = document.querySelector('.nav-list');
+      if (burger && navList) {
+        burger.addEventListener('click', function() {
+          navList.classList.toggle('open');
+        });
+      }
+    });
+  </script>
+</body>
+</html>

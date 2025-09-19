@@ -1,0 +1,32 @@
+[
+  {
+  "id": 1,
+  "title": "Raja Jackson Vs Syko Stu: A Complete Timeline",
+  "summary": "A breakdown of the most exciting fights and upsets at UFC 300.",
+  "url": "articles/raja-jackson-vs-syko-stu-a-complete-timeline.html",
+  "image": "images/article-images/rajavssyko.png",
+  "date": "2025-09-10",
+  "author": "Raja Jackson",
+  "lastUpdated": "2025-09-18"
+  },
+  {
+  "id": 2,
+  "title": "Top 5 Knockouts of 2025",
+  "summary": "Highlighting the most brutal knockouts in MMA this year.",
+  "url": "articles/article2.html",
+  "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+  "date": "2025-09-12",
+  "author": "Syko Stu",
+  "lastUpdated": "2025-09-18"
+  },
+  {
+  "id": 3,
+  "title": "Martial Arts Training Tips",
+  "summary": "Improve your skills with these expert tips from pro fighters.",
+  "url": "articles/article3.html",
+  "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
+  "date": "2025-09-15",
+  "author": "Coach Lee",
+  "lastUpdated": "2025-09-18"
+  }
+]
