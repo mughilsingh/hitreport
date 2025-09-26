@@ -61,14 +61,21 @@ function renderArticles(articles) {
   `).join('');
 }
 
+// Ensure articles.json is fetched correctly and add error handling for debugging
 function fetchArticlesAndRender() {
   fetch('articles.json')
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then(data => {
       window.articles = data;
       renderArticles(data);
     })
-    .catch(() => {
+    .catch(error => {
+      console.error('Error fetching articles.json:', error);
       renderArticles([]);
     });
 }
