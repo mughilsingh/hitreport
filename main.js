@@ -35,7 +35,7 @@ function setupArticleSearch(articles) {
 // On articles.html, use search and filtered rendering
 document.addEventListener('DOMContentLoaded', () => {
   if (document.getElementById('search-input')) {
-    fetch('articles.json')
+    fetch('/articles.json')
       .then(response => response.json())
       .then(function(articles) {
         renderFilteredArticles(articles, "");
