@@ -63,7 +63,7 @@ function renderArticles(articles) {
 
 // Ensure articles.json is fetched correctly and add error handling for debugging
 function fetchArticlesAndRender() {
-  fetch('articles.json')
+  fetch('/articles.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
