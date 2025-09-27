@@ -28,11 +28,5 @@
       "src": "/(.*)",
       "dest": "/$1"
     }
-  ],
-  "rewrites": [
-    { "source": "/articles.json", "destination": "/articles.json" }
-  ],
-  "static": {
-    "include": ["articles.json"]
-  }
+  ]
 }
