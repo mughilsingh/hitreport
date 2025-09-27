@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "MMA news and ELO rating system",
   "main": "index.html",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'Static build'",
-    "deploy": "vercel"
-  },
+"scripts": {
+  "start": "node server.js"
+},
   "keywords": ["mma", "news", "elo", "ratings"],
   "author": "mughilsingh",
   "license": "MIT",
