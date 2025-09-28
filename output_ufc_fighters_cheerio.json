@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Derrick Lewis",
+    "nickname": "The Black Beast",
+    "division": "Heavyweights (265lb, 120 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_Lewis"
+  },
+  {
+    "name": "Curtis Blaydes",
+    "nickname": "Razor",
+    "division": "Heavyweights (265lb, 120 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Curtis_Blaydes"
+  },
+  {
+    "name": "Marcin Tybura",
+    "nickname": "Tybur",
+    "division": "Heavyweights (265lb, 120 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marcin_Tybura"
+  },
+  {
+    "name": "Dustin Jacoby",
+    "nickname": "The Hanyak",
+    "division": "Light heavyweights (205 lb, 93 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Jacoby"
+  },
+  {
+    "name": "Nikita Krylov",
+    "nickname": "The Miner",
+    "division": "Light heavyweights (205 lb, 93 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nikita_Krylov"
+  },
+  {
+    "name": "Jan Błachowicz",
+    "nickname": "",
+    "division": "Light heavyweights (205 lb, 93 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jan_B%C5%82achowicz"
+  },
+  {
+    "name": "Brad Tavares",
+    "nickname": "",
+    "division": "Middleweights (185 lb, 84 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Tavares"
+  },
+  {
+    "name": "Robert Whittaker",
+    "nickname": "The Reaper",
+    "division": "Middleweights (185 lb, 84 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)"
+  },
+  {
+    "name": "Kelvin Gastelum",
+    "nickname": "",
+    "division": "Middleweights (185 lb, 84 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kelvin_Gastelum"
+  },
+  {
+    "name": "Rafael dos Anjos",
+    "nickname": "",
+    "division": "Welterweights (170 lb, 77 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rafael_dos_Anjos"
+  },
+  {
+    "name": "Court McGee",
+    "nickname": "The Crusher",
+    "division": "Welterweights (170 lb, 77 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Court_McGee"
+  },
+  {
+    "name": "Stephen Thompson",
+    "nickname": "Wonderboy",
+    "division": "Welterweights (170 lb, 77 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Stephen_Thompson_(fighter)"
+  },
+  {
+    "name": "Jeremy Stephens",
+    "nickname": "Lil Heathen",
+    "division": "Lightweights (155 lb, 70 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jeremy_Stephens"
+  },
+  {
+    "name": "Jim Miller",
+    "nickname": "A-10",
+    "division": "Lightweights (155 lb, 70 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Miller_(fighter)"
+  },
+  {
+    "name": "Charles Oliveira",
+    "nickname": "Do Bronx",
+    "division": "Lightweights (155 lb, 70 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Oliveira"
+  },
+  {
+    "name": "Cub Swanson",
+    "nickname": "Killer",
+    "division": "Featherweights (145 lb, 65 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cub_Swanson"
+  },
+  {
+    "name": "Darren Elkins",
+    "nickname": "The Damage",
+    "division": "Featherweights (145 lb, 65 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Darren_Elkins"
+  },
+  {
+    "name": "Andre Fili",
+    "nickname": "Touchy",
+    "division": "Featherweights (145 lb, 65 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andre_Fili"
+  },
+  {
+    "name": "Rani Yahya",
+    "nickname": "",
+    "division": "Bantamweights (135 lb, 61 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rani_Yahya"
+  },
+  {
+    "name": "Davey Grant",
+    "nickname": "Dangerous",
+    "division": "Bantamweights (135 lb, 61 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Davey_Grant"
+  },
+  {
+    "name": "Douglas Silva de Andrade",
+    "nickname": "D'Silva",
+    "division": "Bantamweights (135 lb, 61 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Douglas_Silva_de_Andrade"
+  },
+  {
+    "name": "Tim Elliott",
+    "nickname": "",
+    "division": "Flyweights (125 lb, 56 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Elliott"
+  },
+  {
+    "name": "Brandon Moreno",
+    "nickname": "The Assassin Baby",
+    "division": "Flyweights (125 lb, 56 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brandon_Moreno"
+  },
+  {
+    "name": "Matt Schnell",
+    "nickname": "Danger",
+    "division": "Flyweights (125 lb, 56 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matt_Schnell"
+  },
+  {
+    "name": "Miesha Tate",
+    "nickname": "Cupcake",
+    "division": "Women's bantamweights (135 lb, 61 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Miesha_Tate"
+  },
+  {
+    "name": "Julianna Peña",
+    "nickname": "The Venezuelan Vixen",
+    "division": "Women's bantamweights (135 lb, 61 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Julianna_Pe%C3%B1a"
+  },
+  {
+    "name": "Raquel Pennington",
+    "nickname": "Rocky",
+    "division": "Women's bantamweights (135 lb, 61 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Raquel_Pennington"
+  },
+  {
+    "name": "Rose Namajunas",
+    "nickname": "Thug",
+    "division": "Women's flyweights (125 lb, 56 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rose_Namajunas"
+  },
+  {
+    "name": "Valentina Shevchenko",
+    "nickname": "Bullet",
+    "division": "Women's flyweights (125 lb, 56 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Valentina_Shevchenko"
+  },
+  {
+    "name": "Katlyn Cerminara",
+    "nickname": "Blonde Fighter",
+    "division": "Women's flyweights (125 lb, 56 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Katlyn_Cerminara"
+  },
+  {
+    "name": "Jéssica Andrade",
+    "nickname": "Bate Estaca",
+    "division": "Women's strawweights (115 lb, 52 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/J%C3%A9ssica_Andrade"
+  },
+  {
+    "name": "Tecia Pennington",
+    "nickname": "The Tiny Tornado",
+    "division": "Women's strawweights (115 lb, 52 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tecia_Pennington"
+  },
+  {
+    "name": "Angela Hill",
+    "nickname": "Overkill",
+    "division": "Women's strawweights (115 lb, 52 kg)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_Hill"
+  }
+]

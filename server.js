@@ -1,9 +1,28 @@
+
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
+const { Pool } = require('pg');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+
+// PostgreSQL connection pool
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false }
+});
+
+// Test DB endpoint
+app.get('/api/dbtest', async (req, res) => {
+  try {
+    const result = await pool.query('SELECT NOW()');
+    res.json({ time: result.rows[0].now });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
 
 // Serve static files (HTML, CSS, JS, images) from the root directory
 app.use(express.static(path.join(__dirname)));
