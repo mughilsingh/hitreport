@@ -11,6 +11,78 @@
 .source-ref:hover {
   color: #0D47A1;
 }
+
+/* Quote block styles */
+.quote-block {
+  background-color: #f8f9fa;
+  border-left: 4px solid #1565C0;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 1px 6px rgba(13,71,161,0.06);
+}
+
+.quote-block p {
+  margin: 0;
+  color: #333;
+  font-style: italic;
+  position: relative;
+  line-height: 1.6;
+}
+
+.quote-block .speaker {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+/* Color options for quote blocks */
+.quote-blue {
+  border-left-color: #1565C0;
+}
+
+.quote-blue .speaker {
+  color: #1565C0;
+}
+
+.quote-orange {
+  border-left-color: #FF6F00;
+}
+
+.quote-orange .speaker {
+  color: #FF6F00;
+}
+
+.quote-green {
+  border-left-color: #2E7D32;
+}
+
+.quote-green .speaker {
+  color: #2E7D32;
+}
+
+.quote-purple {
+  border-left-color: #6A1B9A;
+}
+
+.quote-purple .speaker {
+  color: #6A1B9A;
+}
+
+.quote-red {
+  border-left-color: #C62828;
+}
+
+.quote-red .speaker {
+  color: #C62828;
+}
+.quote-teal {
+  border-left-color: #00796B;
+}
+
+.quote-teal .speaker {
+  color: #00796B;
+}
+
 .sources-list {
   margin-top: 1.5rem;
   list-style-type: none;

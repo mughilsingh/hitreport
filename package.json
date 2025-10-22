@@ -4,9 +4,7 @@
   "description": "MMA news and ELO rating system",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo 'Build completed'",
-    "render-start": "node server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "mma",
